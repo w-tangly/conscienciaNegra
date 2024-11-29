@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow: hidden;
-    font-family: Poppins    ;
+    font-family: Poppins;
 }
 
 .background{
@@ -25,6 +25,7 @@
     max-width: 300px;
     max-height: 300px;
     border-radius: 50%;
+    padding-top: 1rem;
 }
 
 .logo img{
@@ -40,7 +41,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    border-bottom:1px solid #aaa;
+    border-bottom:1px solid #736055;
 }
 
 .void{
@@ -58,6 +59,66 @@
     text-decoration: none;
 }
 
+.menu li{
+    min-height: 2.5rem;
+}
+
 .menu a{
     text-decoration: none;
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.row p{
+    max-width: 40vw;
+    font-weight: normal;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+}
+
+.img{
+    min-width: 886px;
+    min-height: 465px;
+}
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+
+.conteudo .container .row{
+    display: flex;
+    flex-direction: column;
+}
+
+#selected-r{
+    border-bottom: .25rem solid #736055;
+}
+
+#selected-c{
+    border-bottom: .25rem solid #736055;
+}
+
+#selected-e{
+    border-bottom: .25rem solid #736055;
+}
+
+.ryane a{
+    color: #736055;
+}
+
+.ryane a:hover{
+    border-bottom: .25rem solid #736055;
+}
+
+#title-r{
+    padding-top:3rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #736055;
+    border-bottom: 2px solid #736055;
 }
