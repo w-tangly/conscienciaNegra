@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     font-family: Poppins;
+    list-style: none;
 }
 
 .background{
@@ -15,10 +15,10 @@
 }
 
 .row{
+    width: auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-
 }
 
 .foto_autor{
@@ -33,8 +33,8 @@
 }
 
 .nome_autor{
-    min-width: 500px;
-    min-height: auto;   
+    max-width: 500px;
+    max-height: 40vh;   
 }
 
 .menu{
@@ -45,7 +45,7 @@
 }
 
 .void{
-    width: 50%;
+    min-width: 50%;
 }
 
 .menu nav ul{
@@ -69,16 +69,22 @@
     font-size: 1.5rem;
 }
 
-.row p{
-    max-width: 40vw;
+.text{
     font-weight: normal;
     font-size: 1rem;
     padding-top: 1.5rem;
+    width: 40vw;
+    height: auto;
+    gap:20px;
+    text-align: start;
 }
 
-.img{
-    min-width: 886px;
-    min-height: 465px;
+.img img{
+    max-width: 40vw;
+    max-height: 70vh;
+    overflow: hidden;
+    align-self: center;
+    justify-self: center;
 }
 
 .container{
@@ -90,7 +96,7 @@
     overflow: auto;
 }
 
-.conteudo .container .row{
+.conteudo .container .row .text{
     display: flex;
     flex-direction: column;
 }
@@ -104,7 +110,7 @@
 }
 
 #selected-e{
-    border-bottom: .25rem solid #736055;
+    border-bottom: .25rem solid #A6958F;
 }
 
 .ryane a{
@@ -115,10 +121,35 @@
     border-bottom: .25rem solid #736055;
 }
 
+.esmeralda a{
+    color: #A6958F;
+}
+
+.esmeralda a:hover{
+    border-bottom: .25rem solid #A6958F;
+}
+
 #title-r{
     padding-top:3rem;
     font-weight: 200;
     font-size: 1.5rem;
     color: #736055;
     border-bottom: 2px solid #736055;
+}
+
+#title-e{
+    padding-top:3rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #A6958F;
+    border-bottom: 2px solid #A6958F;
+}
+
+.nome-r{
+    min-width: 300px;
+    min-height: auto;
+}
+
+p.poema{
+    text-align: center;
 }
