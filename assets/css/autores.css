@@ -106,7 +106,7 @@
 }
 
 #selected-c{
-    border-bottom: .25rem solid #736055;
+    border-bottom: .25rem solid #B0C6D9;
 }
 
 #selected-e{
@@ -129,6 +129,14 @@
     border-bottom: .25rem solid #A6958F;
 }
 
+.conceicao a{
+    color: #B0C6D9;
+}
+
+.conceicao a:hover{
+    border-bottom: .25rem solid #B0C6D9;
+}
+
 #title-r{
     padding-top:3rem;
     font-weight: 200;
@@ -143,6 +151,14 @@
     font-size: 1.5rem;
     color: #A6958F;
     border-bottom: 2px solid #A6958F;
+}
+
+#title-c{
+    padding-top:3rem;
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: #B0C6D9;
+    border-bottom: 2px solid #B0C6D9;
 }
 
 .nome-r{
