@@ -275,8 +275,7 @@ figcaption {
 .js-slider_nav_item {
     position: absolute;
     display: none;
-    align-items: center;
-    width: 4rem;
+        width: 4rem;
     height: 4rem;
     border: 1px solid #736055;
     border-radius: 50%;
